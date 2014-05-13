@@ -1,4 +1,4 @@
-package net.thrybergh.predictions;
+package net.thrybergh.predictions.ui;
 
 import android.app.Activity;
 ;
@@ -9,6 +9,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.support.v4.widget.DrawerLayout;
+
+import net.thrybergh.predictions.R;
 
 public class MainActivity extends Activity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks, OnFragmentInteractionListener {

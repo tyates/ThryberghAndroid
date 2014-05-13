@@ -1,9 +1,21 @@
-<ListView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:choiceMode="singleChoice"
-    android:divider="@android:color/transparent"
-    android:dividerHeight="0dp"
-    android:background="#cccc"
-    tools:context="net.thrybergh.predictions.NavigationDrawerFragment" />
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/navigation_drawer_radio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"></RadioGroup>
+
+    <ListView
+        android:id="@+id/navigation_drawer_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cccc"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"/>
+
+</LinearLayout>

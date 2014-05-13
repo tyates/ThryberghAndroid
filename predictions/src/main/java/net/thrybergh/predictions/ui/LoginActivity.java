@@ -1,4 +1,4 @@
-package net.thrybergh.predictions;
+package net.thrybergh.predictions.ui;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

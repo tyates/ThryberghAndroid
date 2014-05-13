@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="main_base_url">http://thrybergh.net/</string>
+    <string name="ws_base_url">ThryberghWebServices/servlet/</string>
+
+    <string name="ws_check_credentials">CheckCredentials</string>
+    <string name="ws_get_fixtures">GetFixtures</string>
+    <string name="ws_get_leaderboard">GetLeaderboard</string>
+    <string name="ws_get_shouts">GetShouts</string>
+
+</resources>

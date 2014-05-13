@@ -1,4 +1,4 @@
-package net.thrybergh.predictions;
+package net.thrybergh.predictions.ui;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -7,6 +7,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import net.thrybergh.predictions.R;
 
 /**
  * A simple {@link Fragment} subclass.
