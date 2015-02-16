@@ -1,1 +1,1 @@
-include ':predictions', ':app'
+include ':predictions'
