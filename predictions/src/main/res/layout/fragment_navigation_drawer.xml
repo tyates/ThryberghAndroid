@@ -1,16 +1,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="80dp"
     android:orientation="vertical"
     android:background="@color/primaryLight">
-<!--
-    <RadioGroup
-        android:id="@+id/navigation_drawer_radio"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" />
--->
+
     <ListView
         android:id="@+id/navigation_drawer_list"
         android:layout_width="match_parent"
