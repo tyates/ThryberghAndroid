@@ -14,6 +14,10 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
 import net.thrybergh.predictions.R;
+import net.thrybergh.predictions.app.ThryberghApplication;
+import net.thrybergh.predictions.network.ThryberghAPI;
+
+import javax.inject.Inject;
 
 public class MainActivity extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks, OnFragmentInteractionListener {
@@ -28,9 +32,15 @@ public class MainActivity extends ActionBarActivity
      */
     private CharSequence mTitle;
 
+    @Inject ThryberghAPI mApi;
+    @Inject BogoClass mBogo;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        ThryberghApplication.inject(this);
+
         setContentView(R.layout.activity_main);
 
         // Set up toolbar

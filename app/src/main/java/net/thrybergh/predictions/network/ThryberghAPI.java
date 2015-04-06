@@ -1,5 +1,4 @@
 package net.thrybergh.predictions.network;
 
-public class ThryberghAPI {
-
+public interface ThryberghAPI {
 }

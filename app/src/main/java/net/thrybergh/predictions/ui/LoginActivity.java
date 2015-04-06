@@ -16,6 +16,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import net.thrybergh.predictions.R;
+import net.thrybergh.predictions.app.ThryberghApplication;
+import net.thrybergh.predictions.network.ThryberghAPI;
+
+import javax.inject.Inject;
 
 /**
  * Activity which displays a login screen to the user, offering registration as
