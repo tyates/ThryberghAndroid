@@ -25,7 +25,6 @@ proguard/
 # Gradle
 .gradle/
 build/
-gradle/
 
 # IntelliJ / Android Studio
 .idea/
